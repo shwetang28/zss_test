@@ -1,0 +1,18 @@
+<mvc:View controllerName="zss_namespace.zss_test.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="hello world">
+				<content>
+					<html:div id="map" style="width:20cm; height:20cm; margin-left:5cm"></html:div>
+					<!--<html:script>-->
+					<!--	function init(){ window.alert("hello"); } -->
+					<!--	function errorAlert() { window.alert("Error encountered!!! Please try again later!!!"); }-->
+					<!--</html:script>-->
+					<!--<html:script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWAb0Dr2cDdOicUsKYqBGMcscdV79Nutg&v=3&callback=init"-->
+					<!--	onerror="errorAlert()"></html:script>-->
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
